@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Exo+2');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+header{
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    height: 110px;
+    background: url(https://adriachg.files.wordpress.com/2015/02/crossfit-banner.jpg);
+    background-size: cover;
+    border-bottom: solid 3px #de0f3d;
+}
+
+.logo{
+    height: 110px;
+    width: 110px;
+    float: left;
+}
+
+.titulo{
+    padding-top: 24px;
+}
+
+.nombre{
+    font-family: 'Diplomata SC', cursive;
+    text-align: center;
+    background: #000000de;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+    color: #de0f3d;
+}
+
+nav{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    background: #de0f3d;
+    border-radius: 50%;
+}
+
+.menu{
+    font-size: 1rem;
+    padding: 0.4em 0.5em;
+}
+
+.equipo{
+    width: 100%;
+    background: linear-gradient(0deg,#000000eb,#9e8d8d52);
+    text-align: center;
+    overflow: auto;
+    padding-bottom: 1em;
+}
+
+.equipo h4{
+    font-family: 'Diplomata SC', cursive;
+    margin: 0.5em;
+    font-size: 1rem;
+}
+
+.equipo div{
+    width: 30%;
+    float: left;
+    padding: 0 1.66%;
+}
+
+.persona{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #de0f3d;
+}
+
+
+.banner{
+    height:200px;
+    background: url(http://www.crossfitproven.com/ResizeImage.aspx?m=1409&img=%2fWebsites%2fcrossfitproven%2fPhotoGallery%2f6021429%2fhome-page-slides-2.jpg&01227);
+    background-size: cover;
+}
+
+footer{
+ padding: 0.5em 0.5em;
+ overflow: auto;
+ background: radial-gradient(#807c7c78,#000000ad);
+ color: white;
+ font-family: "Exo 2", sans-serif;
+ line-height: 0.2rem;
+ font-size: 0.8rem;
+}
+
+footer div{
+    float: left;
+}
+
+.derecha{
+    float:right;
+}
+
+.redes{    
+    padding: 0.3em 0 0.3em 0.5em;
+    font-size: 1.6rem;
+    color: #de0f3d;
+}
